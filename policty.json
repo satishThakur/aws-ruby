@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1431602772000",
+            "Effect": "Allow",
+            "Action": [
+                "elasticloadbalancing:AddTags",
+                "elasticloadbalancing:CreateLoadBalancer",
+                "elasticloadbalancing:DescribeTags"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+	
+    ]
+}
